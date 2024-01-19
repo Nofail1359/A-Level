@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.bg-box {
+    background-color: green;
+    width: 700px;
+    height: 700px;
+    background-image: url("../img/hedgehog.webp"), url("../img/donut.png"),
+        url("../img/light.png"), url("../img/green.png"),
+        url("../img/house.png");
+    background-repeat: repeat-y, repeat-y, repeat-x, repeat-x, no-repeat;
+    background-position: left top, right top, right top, left bottom, center;
+    background-size: 100px 100px, 100px 100px, 100px 100px, 100px 100px,
+        300px 300px;
+    background-clip: content-box, content-box, content-box, content-box,
+        content-box;
+}

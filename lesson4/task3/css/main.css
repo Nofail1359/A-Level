@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+.menu_item {
+    display: none;
+    text-align: center;
+    font-size: 13px;
+}
+
+.menu:hover .menu_item {
+    display: block;
+    padding-top: 100%;
+    /* position: absolute; */
+}
+.menu:hover .menu_button {
+    display: none;
+}
+.menu {
+    background-color: gray;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+}
+
+.menu_button {
+    transform: rotate(90deg);
+    position: relative;
+    top: 50%;
+}
+
+.menu_item:hover {
+    text-decoration: underline;
+    color: orange;
+    cursor: pointer;
+}
+
+.menu_item:before {
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background-color: orange;
+    transform: rotate(45deg);
+    margin-right: 5px;
+    border: 1px solid black;
+}

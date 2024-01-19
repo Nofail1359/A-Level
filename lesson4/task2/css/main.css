@@ -1,0 +1,27 @@
+.main {
+    position: relative;
+}
+
+.pink {
+    position: absolute;
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+}
+.purple {
+    position: absolute;
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    top: 50px;
+    left: 50px;
+}
+.green {
+    position: absolute;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+}

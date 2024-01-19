@@ -1,0 +1,13 @@
+.htmlimg {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+.cssimg {
+    width: 300px;
+    height: 168px;
+    float: right;
+    margin: 10px 0 10px 10px;
+}
+div {
+    text-align: justify;
+}
