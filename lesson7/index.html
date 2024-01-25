@@ -3,14 +3,32 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="styles.css" />
-        <title>Custom Checkboxes</title>
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>Document</title>
     </head>
     <body>
-        <label class="custom-checkbox">
-            <input type="checkbox" />
-            <span class="checkmark"></span>
-            Check me
-        </label>
+        <form>
+            <fieldset>
+                <legend>Контактна інформація</legend>
+                <label for="name">Имя<em>*</em></label>
+                <input type="text" id="name" />
+                <label for="email">E-mail</label>
+                <input type="email" id="email" />
+                <label for="tel">Телефон</label>
+                <input type="tel" id="tel" />
+                <label for="country">Список стран</label>
+                <select id="country">
+                    <option>Украина</option>
+                    <option>США</option>
+                    <option>Мексика</option>
+                    <option>Польша</option>
+                    <option>Германия</option>
+                    <option>Нидерланды</option>
+                </select>
+                <br />
+                <textarea cols="60" rows="5"></textarea>
+            </fieldset>
+            <button type="submit">Отправить</button>
+        </form>
     </body>
 </html>
